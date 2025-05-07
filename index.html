@@ -1665,9 +1665,7 @@
 
   <script>
 
-  loadDoc("./xml/class_sunday.xml", classXML);
-  loadDoc("./json/class_sunday.json", classJSON);
-  loadSubject();
+  
 
 
   //loadDoc("url-2", myFunction2);
@@ -1742,9 +1740,9 @@
 
   }
    
-  function loadSubject(){
+  function loadSubject(File){
     const select = document.getElementById("subject-select");
-    fetch("./json/contact_subject.json")
+    fetch(File)
     .then(jsonDoc => jsonDoc.json())
     .then(jsonObj => {
       console.log(jsonObj.contactSubject);
@@ -1765,6 +1763,10 @@
   window.onload = function(){
      const contact = document.getElementById("contact-head");
      contact.innerHTML = "HIIIIII" ;
+
+     loadDoc("./xml/class_sunday.xml", classXML);
+  loadDoc("./json/class_sunday.json", classJSON);
+  loadSubject('http://localhost:4040/subject');
     };
   </script>
 </body>
