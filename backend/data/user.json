@@ -1,0 +1,58 @@
+[
+  {
+    "firstName": "Kunanan",
+    "lastName": "Wongsing",
+    "email": "kunanan.ws@gmail.com",
+    "password": "123456",
+    "category": "computer",
+    "occupation": "Software Developer"
+  },
+  {
+    "firstName": "praew",
+    "lastName": "pp",
+    "email": "praew@gmail.com",
+    "password": "praew",
+    "category": "computer",
+    "occupation": "Web Developer"
+  },
+  {
+    "firstName": "Sky",
+    "lastName": "ja",
+    "email": "sky@gmail.com",
+    "password": "sky",
+    "category": "healthcare",
+    "occupation": "Pharmacist"
+  },
+  {
+    "firstName": "ดหวก",
+    "lastName": "กแอ",
+    "email": "pppp@gmail.com",
+    "password": "fdowk[l",
+    "category": "computer",
+    "occupation": "Computer"
+  },
+  {
+    "firstName": "ฟฟฟ",
+    "lastName": "ฟฟฟฟ",
+    "email": "i.ampeba55@gmail.com",
+    "password": "aumnu1234",
+    "category": "computer",
+    "occupation": "Software Developer"
+  },
+  {
+    "firstName": "Kunanan",
+    "lastName": "w",
+    "email": "kunanan.ww@gmail.com",
+    "password": "123456",
+    "category": "computer",
+    "occupation": "Computer"
+  },
+  {
+    "firstName": "ดหวก",
+    "lastName": "Wongsing",
+    "email": "kunanan.w@gmail.com",
+    "password": "123456",
+    "category": "scientific",
+    "occupation": "Researcher"
+  }
+]
